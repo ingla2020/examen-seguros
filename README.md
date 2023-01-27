@@ -30,13 +30,13 @@ developer.accuweather.apikey = KJNvGmRyD2NKuA0fXlPvmGNVCpN54YNS
 <tr>
 </tr><tr>
 <td>
-<b>Base de Datos</b>
+<b>Base de Datos - H2 - men en memoria</b>
 </td>
 <td>
-H2
+http://localhost:8080/h2-console/login.jsp?jsessionid=f2893dae8ea3d06ad2accc06cdffe79a
 </td>
 <td>
-mem - en memoria 
+User: sa / pass: password / definido en application.properties 
 </td>
 </tr>
 
@@ -64,6 +64,8 @@ Spock groovy
 Junit - Mockito
 </td>
 </tr>
+
+
 
 </tbody></table>
 
